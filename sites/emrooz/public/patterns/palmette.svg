@@ -1,0 +1,14 @@
+<svg width="160" height="220" viewBox="0 0 160 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M80 10C95 20 120 50 125 85C128 105 120 125 105 135C95 142 88 140 80 135C72 140 65 142 55 135C40 125 32 105 35 85C40 50 65 20 80 10Z" fill="#C69320" fill-opacity="0.75" stroke="#C69320" stroke-width="0.8"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M80 25C92 35 110 58 114 85C116 100 110 115 100 122C93 127 87 125 80 120C73 125 67 127 60 122C50 115 44 100 46 85C50 58 68 35 80 25Z" fill="#3B6FA0" fill-opacity="0.65" stroke="#3B6FA0" stroke-width="0.5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M80 18C84 40 86 70 84 100C83 110 81 118 80 122C79 118 77 110 76 100C74 70 76 40 80 18Z" fill="#A0522D" fill-opacity="0.8"/>
+<path d="M80 30C68 45 55 70 50 95" stroke="#F0E8D0" stroke-opacity="0.3" stroke-width="0.5"/>
+<path d="M80 30C92 45 105 70 110 95" stroke="#F0E8D0" stroke-opacity="0.3" stroke-width="0.5"/>
+<path d="M80 40C72 55 62 80 58 108" stroke="#F0E8D0" stroke-opacity="0.3" stroke-width="0.5"/>
+<path d="M80 40C88 55 98 80 102 108" stroke="#F0E8D0" stroke-opacity="0.3" stroke-width="0.5"/>
+<path d="M80 135C65 145 45 155 30 158C20 160 15 155 20 148C28 138 50 135 65 133" stroke="#7B8B6F" stroke-width="2"/>
+<path d="M80 135C95 145 115 155 130 158C140 160 145 155 140 148C132 138 110 135 95 133" stroke="#7B8B6F" stroke-width="2"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M40 150C35 142 30 148 35 155C40 160 45 158 40 150Z" fill="#7B8B6F" fill-opacity="0.6"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M120 150C125 142 130 148 125 155C120 160 115 158 120 150Z" fill="#7B8B6F" fill-opacity="0.6"/>
+<circle cx="80" cy="10" r="4" fill="#F0E8D0"/>
+</svg>

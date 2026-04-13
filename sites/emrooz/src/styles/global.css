@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("/fonts/Vazirmatn-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@theme {
+  /* Dark carpet palette — pulled from the rug */
+  --color-navy: #0D1526;
+  --color-navy-light: #152038;
+  --color-navy-mid: #1C2B4A;
+  --color-field: #D4C9A8;
+  --color-field-light: #E8DFC8;
+  --color-blue: #3B6FA0;
+  --color-blue-light: #5A8FBF;
+  --color-blue-deep: #1B3A6B;
+  --color-rust: #A0522D;
+  --color-rust-light: #C27040;
+  --color-copper: #B87333;
+  --color-sage: #7B8B6F;
+  --color-sage-light: #9AAD8C;
+  --color-cream: #F0E8D0;
+  --color-cream-muted: #C8BFA6;
+  --color-gold: #C69320;
+  --color-saffron: #E8A817;
+  --color-burgundy: #7A1F3D;
+  --color-crimson: #A8223A;
+
+  --font-display: "Vazirmatn", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-cream);
+  background-color: var(--color-navy);
+}
+
+@keyframes pattern-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pattern-pulse {
+  0%, 100% { opacity: 0.06; }
+  50% { opacity: 0.14; }
+}
+
+@keyframes bounce-down {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+
+@keyframes scroll-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes border-shimmer {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.6; }
+}
+
+@keyframes drift {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(-10px, -6px); }
+  100% { transform: translate(0, 0); }
+}

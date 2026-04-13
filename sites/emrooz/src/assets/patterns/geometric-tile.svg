@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- 8-point star tessellation tile -->
+  <polygon points="50,5 61,25 82,18 75,39 95,50 75,61 82,82 61,75 50,95 39,75 18,82 25,61 5,50 25,39 18,18 39,25" stroke="currentColor" stroke-width="0.5" opacity="0.15"/>
+  <polygon points="50,20 57,35 72,31 68,46 83,50 68,54 72,69 57,65 50,80 43,65 28,69 32,54 17,50 32,46 28,31 43,35" stroke="currentColor" stroke-width="0.3" opacity="0.1"/>
+</svg>

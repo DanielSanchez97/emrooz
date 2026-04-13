@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../components/layout/BaseLayout.astro";
+import CarpetBackground from "../components/landing/CarpetBackground";
+import Hero from "../components/landing/Hero";
+import ToolGrid from "../components/landing/ToolGrid";
+import Footer from "../components/landing/Footer";
+import { getTools } from "../lib/tools";
+
+const tools = await getTools();
+const toolData = tools.map((t) => t.data);
+---
+
+<BaseLayout>
+  <!-- Full-viewport landing hero with carpet bloom -->
+  <section class="relative min-h-screen">
+    <CarpetBackground client:load />
+    <div class="relative z-10 min-h-screen flex flex-col items-center justify-center">
+      <Hero client:load />
+    </div>
+  </section>
+
+  <!-- Below the fold: apps & tools -->
+  <main class="relative z-10">
+    <ToolGrid client:visible tools={toolData} />
+    <Footer />
+  </main>
+</BaseLayout>

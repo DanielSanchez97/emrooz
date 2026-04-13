@@ -1,0 +1,21 @@
+<svg width="600" height="60" viewBox="0 0 600 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="2" width="600" height="1" fill="#C69320" fill-opacity="0.5"/>
+<rect y="57" width="600" height="1" fill="#C69320" fill-opacity="0.5"/>
+<path d="M0 30C25 15 50 15 75 30C100 45 125 45 150 30C175 15 200 15 225 30C250 45 275 45 300 30C325 15 350 15 375 30C400 45 425 45 450 30C475 15 500 15 525 30C550 45 575 45 600 30" stroke="#7B8B6F" stroke-opacity="0.7" stroke-width="1.2"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M37.5 18L45.5 30L37.5 42L29.5 30L37.5 18Z" fill="#7A1F3D" fill-opacity="0.5" stroke="#C69320" stroke-opacity="0.6" stroke-width="0.5"/>
+<circle cx="37.5" cy="30" r="1.5" fill="#C69320"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M112.5 18L120.5 30L112.5 42L104.5 30L112.5 18Z" fill="#3B6FA0" fill-opacity="0.5" stroke="#C69320" stroke-opacity="0.6" stroke-width="0.5"/>
+<circle cx="112.5" cy="30" r="1.5" fill="#C69320"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M187.5 18L195.5 30L187.5 42L179.5 30L187.5 18Z" fill="#7A1F3D" fill-opacity="0.5" stroke="#C69320" stroke-opacity="0.6" stroke-width="0.5"/>
+<circle cx="187.5" cy="30" r="1.5" fill="#C69320"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M262.5 18L270.5 30L262.5 42L254.5 30L262.5 18Z" fill="#3B6FA0" fill-opacity="0.5" stroke="#C69320" stroke-opacity="0.6" stroke-width="0.5"/>
+<circle cx="262.5" cy="30" r="1.5" fill="#C69320"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M337.5 18L345.5 30L337.5 42L329.5 30L337.5 18Z" fill="#7A1F3D" fill-opacity="0.5" stroke="#C69320" stroke-opacity="0.6" stroke-width="0.5"/>
+<circle cx="337.5" cy="30" r="1.5" fill="#C69320"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M412.5 18L420.5 30L412.5 42L404.5 30L412.5 18Z" fill="#3B6FA0" fill-opacity="0.5" stroke="#C69320" stroke-opacity="0.6" stroke-width="0.5"/>
+<circle cx="412.5" cy="30" r="1.5" fill="#C69320"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M487.5 18L495.5 30L487.5 42L479.5 30L487.5 18Z" fill="#7A1F3D" fill-opacity="0.5" stroke="#C69320" stroke-opacity="0.6" stroke-width="0.5"/>
+<circle cx="487.5" cy="30" r="1.5" fill="#C69320"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M562.5 18L570.5 30L562.5 42L554.5 30L562.5 18Z" fill="#3B6FA0" fill-opacity="0.5" stroke="#C69320" stroke-opacity="0.6" stroke-width="0.5"/>
+<circle cx="562.5" cy="30" r="1.5" fill="#C69320"/>
+</svg>

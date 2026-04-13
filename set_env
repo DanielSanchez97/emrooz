@@ -1,0 +1,10 @@
+#!/bin/bash
+
+export EMROOZ_ROOT=$(pwd)
+echo "EMROOZ_ROOT set to: $EMROOZ_ROOT"
+
+export PYTHONPATH="$EMROOZ_ROOT/libs/python:$PYTHONPATH"
+echo "PYTHONPATH set to: $PYTHONPATH"
+
+export PATH="$EMROOZ_ROOT/scripts:$PATH"
+echo "Added scripts/ to PATH"
