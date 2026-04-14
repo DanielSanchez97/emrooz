@@ -1,0 +1,20 @@
+# Node / JS
+node_modules/
+dist/
+.astro/
+
+# OS
+.DS_Store
+
+# Terraform
+infrastructure/**/.terraform/
+infrastructure/**/terraform.tfstate
+infrastructure/**/terraform.tfstate.backup
+infrastructure/**/terraform.tfstate.*.backup
+infrastructure/**/crash.log
+infrastructure/**/crash.*.log
+# Real variable files may contain secrets / account-specific values.
+# Keep *.tfvars.example committed as templates.
+infrastructure/**/*.tfvars
+infrastructure/**/*.tfvars.json
+!infrastructure/**/*.tfvars.example

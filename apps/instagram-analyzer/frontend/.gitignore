@@ -1,0 +1,7 @@
+node_modules
+dist
+.DS_Store
+
+# Real Instagram exports contain personal social-graph data —
+# never commit them even when they live inside example-data/
+example-data

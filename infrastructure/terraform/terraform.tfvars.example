@@ -1,0 +1,13 @@
+# Copy this file to terraform.tfvars and adjust as needed.
+# terraform.tfvars is gitignored — it's free to contain account-specific values.
+
+# AWS region. Leave at us-east-1 unless you have a strong reason to change —
+# CloudFront ACM certs are required to live in us-east-1 regardless.
+# aws_region = "us-east-1"
+
+# AWS CLI profile to use. Falls back to environment vars if unset.
+# aws_profile = "emrooz"
+
+# Root domain whose Route53 hosted zone will be used. The two sites are
+# served at root_domain (apex) and iga.<root_domain>.
+# root_domain = "emrooz.io"
