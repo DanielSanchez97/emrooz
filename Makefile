@@ -3,6 +3,7 @@ include apps/language-learning/frontend/Makefile
 include apps/personal-finance/backend/Makefile
 include apps/personal-finance/frontend/Makefile
 include apps/instagram-analyzer/frontend/Makefile
+include apps/spike-sync/Makefile
 include packaging/language-learning/Makefile
 include packaging/personal-finance/Makefile
 include packaging/instagram-analyzer/Makefile
@@ -39,6 +40,20 @@ help:
 	@echo "  ia-frontend-build    Build frontend"
 	@echo "  ia-frontend-lint     Lint frontend"
 	@echo ""
+	@echo "=== Spike Sync (Phase 0 Tauri spike) ==="
+	@echo "  ss-install           Install npm deps + bootstrap icons"
+	@echo "  ss-dev               Run desktop dev (Tauri + Vite)"
+	@echo "  ss-build             Build desktop bundle"
+	@echo "  ss-ios-init          One-time: scaffold iOS Xcode project"
+	@echo "  ss-ios-dev           Run on iOS simulator"
+	@echo "  ss-ios-dev-host      Run on iOS device (LAN)"
+	@echo "  ss-ios-build         Build .ipa for TestFlight"
+	@echo "  ss-android-init      One-time: scaffold Android project"
+	@echo "  ss-android-dev       Run on Android emulator/device"
+	@echo "  ss-android-build     Build .apk/.aab"
+	@echo "  ss-icons             Re-bootstrap placeholder icons"
+	@echo "  ss-clean             Remove build artifacts"
+	@echo ""
 	@echo "=== Sites ==="
 	@echo "  emrooz-dev           Run emrooz site (Astro :4321)"
 	@echo "  emrooz-build         Build emrooz site"
@@ -64,7 +79,7 @@ help:
 	@echo "  install-all          Install all dependencies"
 	@echo ""
 
-install-all: ll-backend-install ll-frontend-install pf-backend-install pf-frontend-install ia-frontend-install emrooz-install
+install-all: ll-backend-install ll-frontend-install pf-backend-install pf-frontend-install ia-frontend-install ss-install emrooz-install
 
 lint-all:
 	./scripts/lint-all.sh
